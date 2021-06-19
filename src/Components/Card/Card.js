@@ -1,9 +1,17 @@
 import React from 'react';
+import CardHeader from './CardHeader/CardHeader';
+import CardBody from './CardBody/CardBody';
+import CardFooter from './CardFooter/CardFooter';
+import './Card.css';
 
 function Card() {
    return (
       <React.Fragment>
-         <h2>This is the Card component!</h2>
+         <div className='card-container'>
+            <CardHeader />
+            <CardBody />
+            <CardFooter />
+         </div>
       </React.Fragment>
    );
 }
