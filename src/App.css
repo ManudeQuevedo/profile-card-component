@@ -36,32 +36,25 @@ span {
           Layout Styles
 ################################ */
 .App {
-   background-color: var(--dark-cyan);
+   align-items: center;
+   background: url(./images/bgPatternTop.svg) right 49vw top -490px no-repeat,
+      #19a2ae url(./images/bgPatternBottom.svg) left 47vw bottom -590px no-repeat;
+   display: flex;
+   flex-direction: column;
    height: 100vh;
+   justify-content: center;
    text-align: center;
-   z-index: -1;
 }
 
 .top-bg {
    position: absolute;
    top: -350px;
    left: -200px;
-   z-index: 0;
 }
 
 .bottom-bg {
    position: absolute;
    top: 350px;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-   .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-   }
-}
-
-.Card {
-   z-index: 1;
 }
 
 .App-header {
