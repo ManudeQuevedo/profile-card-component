@@ -7,16 +7,16 @@ function CardFooter() {
          <div className='card-footer-container'>
             <div className='card-footer-list'>
                <div className='list-item'>
-                  <p>80K</p>
-                  <p>Followers</p>
+                  <p className='primary-text'>80K</p>
+                  <p className='secondary-text'>Followers</p>
                </div>
                <div className='list-item'>
-                  <p>803K</p>
-                  <p>Likes</p>
+                  <p className='primary-text'>803K</p>
+                  <p className='secondary-text'>Likes</p>
                </div>
                <div className='list-item'>
-                  <p>1.4K</p>
-                  <p>Photos</p>
+                  <p className='primary-text'>1.4K</p>
+                  <p className='secondary-text'>Photos</p>
                </div>
             </div>
          </div>
